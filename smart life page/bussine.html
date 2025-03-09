@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Residenciales Inteligentes</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #4CAF50; color: white; text-align: center; padding: 1em; display: flex; align-items: center; justify-content: center; }
+        header img { height: 60px; margin-right: 15px; }
+        section { padding: 20px; text-align: center; }
+        .container { display: flex; justify-content: space-around; flex-wrap: wrap; }
+        .card { background: #f4f4f4; padding: 20px; margin: 10px; border-radius: 10px; width: 300px; text-align: center; }
+        .card img { width: 100%; border-radius: 10px; }
+        footer { background: #333; color: white; text-align: center; padding: 1em; }
+        .form-container { background: #e0e0e0; padding: 20px; text-align: center; }
+        input, textarea { width: 80%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc; }
+        button { background: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background: #45a049; }
+    </style>
+    <script>
+        function mostrarMensaje(event) {
+            event.preventDefault();
+            alert("Gracias por tu solicitud. Nos pondremos en contacto contigo por correo electrónico.");
+            document.getElementById("contact-form").reset();
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\kanki\OneDrive\Documents\smart life page\vecteezy_home-app-icon-in-purple-and-pink-button_56419960.png" alt="Logo Residenciales Inteligentes">
+        <h1>Smart Life</h1>
+    </header>
+    <section style="background: #d4edda;">
+        <h2>🌿 Descubre una Nueva Forma de Vivir 🌿</h2>
+        <p>
+
+            El proyecto Residenciales Inteligentes y Ecológicos nace con la visión de crear un entorno donde la tecnología, la naturaleza y el confort humano se fusionen para ofrecer una experiencia de vida inigualable.
+        </p>
+        <p>
+            🏡 Innovación y Sostenibilidad
+            Cada hogar ha sido diseñado con la última tecnología en automatización, brindando comodidad, eficiencia energética y seguridad. Desde sistemas inteligentes de climatización hasta iluminación automatizada, todo está pensado para facilitar tu día a día.
+        </p>
+        <p>
+            🌱 Conectados con la Naturaleza
+            Creemos en un futuro donde el bienestar humano y el respeto por el medio ambiente van de la mano. Por eso, nuestras residencias cuentan con amplias áreas verdes, energía renovable y sistemas de aprovechamiento de recursos naturales.
+        </p>
+        <p>
+            🔒 Seguridad y Tranquilidad
+            Vivir en una comunidad segura es esencial. Por eso, ofrecemos acceso controlado, vigilancia 24/7 y un ambiente diseñado para la paz y el bienestar de tu familia.
+        </p>
+            ✨ Únete a este proyecto único y disfruta de un estilo de vida moderno, ecológico y lleno de comodidad. Tu nuevo hogar te espera. Contáctanos hoy y sé parte de esta transformación! ✨
+        </p>
+        <div class="container">
+            <div class="card">
+                <img src="C:\Users\kanki\OneDrive\Documents\smart life page\domotica-casa.jpg" alt="Casa Inteligente">
+                <h3>Casas Inteligentes</h3>
+                <p>Automatización total con sistemas de seguridad, iluminación y climatización eficientes.</p>
+            </div>
+            <div class="card">
+                <img src="C:\Users\kanki\Downloads\81714ef9fa238bccc77fa46184a1ef7a.jpg" alt="Área Ecológica">
+                <h3>Área Ecológica</h3>
+                <p>Espacios verdes, energía renovable y sistemas de recolección de agua para un impacto positivo.</p>
+            </div>
+            <div class="card">
+                <img src="c:\Users\kanki\OneDrive\Documents\smart life page\adobestock_308964738-1.webp" alt="Comunidad Segura">
+                <h3>Comunidad Segura</h3>
+                <p>Seguridad 24/7, acceso controlado y un ambiente tranquilo para toda la familia.</p>
+            </div>
+        </div>
+    </section>
+    <section style="background: #f8d7da; display: flex; align-items: center;">
+        <img src="C:\Users\kanki\OneDrive\Documents\smart life page\20160211-context-presentaci.jpg" class="image-left" alt="Misión" style="max-width: 200px; margin-right: 20px;">
+        <div class="section-content">
+            <h2>Misión</h2>
+            <p>En Smart Life, nuestra misión es crear comunidades que integren tecnología avanzada con un firme compromiso hacia la sostenibilidad ambiental, proporcionando hogares que no solo sean inteligentes, sino también ecológicos. Nos dedicamos a ofrecer a nuestros residentes un entorno que combine comodidad, eficiencia energética, seguridad y bienestar. A través de soluciones de automatización, como sistemas inteligentes de climatización, iluminación y control de seguridad, buscamos optimizar el uso de los recursos naturales y reducir el impacto ambiental. Creemos que el futuro de la vivienda debe ser ecológico, eficiente y conectado, y trabajamos para hacer de esto una realidad para cada uno de nuestros residentes, mejorando su calidad de vida y, a su vez, contribuyendo a un futuro más sostenible.</p>
+        </div>
+    </section>
+    <section style="background: #cce5ff; display: flex; align-items: center;">
+        <img src="C:\Users\kanki\OneDrive\Documents\smart life page\Smart-Home-2.jpg" class="image-left" alt="Visión" style="max-width: 200px; margin-right: 20px;">
+        <div class="section-content">
+            <h2>Visión</h2>
+            <p>En Smart Life, nuestra visión es ser reconocidos como la comunidad residencial líder en innovación, sostenibilidad y calidad de vida. Queremos transformar la forma en que las personas viven, creando espacios donde la tecnología, la seguridad y el respeto por la naturaleza convivan de manera armoniosa. Aspiramos a ser la primera opción para aquellos que buscan no solo un hogar, sino un estilo de vida moderno y responsable con el medio ambiente. Visualizamos un futuro donde cada vivienda no solo sea un lugar de descanso, sino también un centro de bienestar y eficiencia, respaldado por soluciones tecnológicas de vanguardia y energías renovables. Nuestra meta es seguir creciendo y expandiéndonos, liderando el camino hacia comunidades más verdes, inteligentes y seguras, mejorando constantemente la calidad de vida de nuestros residentes y contribuyendo al cuidado del planeta.</p>
+        </div>
+    </section>
+    <section style="background: #f9e79f;">
+        <h2>Contacto</h2>
+        <p>Ponte en contacto con nosotros para más información.</p>
+        <p>Email: lopezdamuel47@gmail.com</p>
+        <p>Teléfono: +1 849-205-4348</p>
+    </section>
+    <section class="form-container">
+        <h2>Solicita Información</h2>
+        <form id="contact-form" onsubmit="mostrarMensaje(event)">
+            <input type="text" name="nombre" placeholder="Nombre Completo" required><br>
+            <input type="email" name="email" placeholder="Correo Electrónico" required><br>
+            <input type="tel" name="telefono" placeholder="Teléfono" required><br>
+            <textarea name="mensaje" placeholder="Escribe tu mensaje..." required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Residenciales Inteligentes. Todos los servicios estan supervisados por Abogados.</p>
+    </footer>
+</body>
+</html>
+
+
